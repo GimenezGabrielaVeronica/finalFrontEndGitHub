@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Contactanos</title>
+
+    <link rel="icon" href="/imagenes/GyPicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilo.css">
+
+
+</head>
+<body>
+    <main>
+        <div><img class="fondo" > </img></div>
+
+        <h3 id=h3visitanos class="textoVerde">Formulario de Contacto</h3>
+
+        <form class="formContacto" action="https://formspree.io/f/mblgbvne" method="post">                
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="complete su nombre">       
+            </div>
+            <div>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+            </div>
+            <div>
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="opciones">Donde nos conoció:</label>        <!--opcion menu desplegable-->              
+                <select name="opcion" id="opcion">
+                    <option value="vacio">...</option>
+                    <option value="google">Búsqueda en Google</option>
+                    <option value="conocido">Alguien conocido</option>
+                    <option value="publicidad">Aviso publicitario</option>
+                </select>
+            </div>          
+                <!--<label for="sexo">Género:</label>        opcion menu desplegable             
+                <select name="sexo" id="sexo">
+                    <option value="f">F</option>
+                    <option value="m">M</option>
+                    <option value="x">X</option>
+                </select> --> 
+
+                <fieldset>    <!--opcion type radio--> 
+                    <legend> Seleccione su Género:</legend>
+                    <div>
+                        <input type="radio" id="f" name="sexo" value="f">
+                        <label for="f">Femenino</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="m" name="sexo" value="m">
+                        <label for="m">Masculino</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="x" name="sexo" value="x">
+                        <label for="x">X</label>
+                    </div>
+
+                </fieldset>
+            <div><!--elemento en bloque ocupa toda la linea entera de la pantalla no agrega espacio de linea-->     
+                <label for="mensaje">Mensaje:</label>
+                <textarea   name="mensaje" id="mensaje" rows="4" cols="50" 
+                            required placeholder="Escriba su mensaje">
+                </textarea>
+            </div>
+
+            <button type="submit">Enviar</button>
+            
+        </form>
+
+
+            
+    <h3 id=h3visitanos class="textoVerde">Donde encontrarnos</h3>
+
+            
+
+            <p>
+            
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3904.916143137235!2d-58.41886143142995!3d-34.61351687923808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaf63fd6d68d%3A0xb30c7546968205ab!2sMaza%20200%2C%20C1210%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1748380697866!5m2!1ses!2sar" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>      
+            </p>
+
+    </main>
+    
+</body>
+</html>
