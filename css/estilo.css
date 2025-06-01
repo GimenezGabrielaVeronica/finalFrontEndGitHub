@@ -29,7 +29,7 @@ body{
   }
 }
 
-/*estilo pantallas medianas, tables o pc pequeñas, mas de 768px*/
+/*estilo pantallas medianas, tablets o pc pequeñas, mas de 768px*/
 @media only screen and (min-width:768px) {
   body {
     font-size: 18px;
@@ -441,16 +441,22 @@ li{
 .grid-contenedor-footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: 1fr;
+  grid-auto-rows: 100px; /*controla q si se crean filas sea ese tamaño*/
+  grid-auto-flow: column;
+  /*grid-template-areas: "foot" "foot" "foot";*/
   gap: 10px;
-  background-color: rgba(175, 12, 175, 0.5);
   background-color: white;
   color: blueviolet; /*color del texto*/
   margin-bottom: 1rem;
+  border: 3px solid ;
+  border-radius: 8px;
 }
 
-.footer {
-grid-column: 1 / 3;
+.footer div {
+/*grid-column: 1fr 1fr 1fr;*/
+/*grid-area: foot;*/
+border: 2px groove blueviolet;
 }
 
 /* #footerNav nav ul, nav li, a{    /* el # pone el id*/
@@ -463,7 +469,7 @@ grid-column: 1 / 3;
 #footerNav a{             /* el # pone el id*/
   text-decoration: none; /*saca apariencia de enlace*/
   color: blueviolet;
-  display: block;
+  /*display: block;*/
 }
 
 
