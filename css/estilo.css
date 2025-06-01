@@ -434,9 +434,7 @@ li{
 }
 
 
-
 /*  --------estilos del footer-----------------*/
-
 
 .grid-contenedor-footer {
   display: grid;
@@ -444,20 +442,14 @@ li{
   grid-template-rows: 1fr;
   grid-auto-rows: 100px; /*controla q si se crean filas sea ese tamaño*/
   grid-auto-flow: column;
-  /*grid-template-areas: "foot" "foot" "foot";*/
-  gap: 10px;
+  gap: 10px 10px;
   background-color: white;
   color: blueviolet; /*color del texto*/
-  margin-bottom: 1rem;
   border: 3px solid ;
   border-radius: 8px;
+  margin-bottom: 1rem;
 }
 
-.footer div {
-/*grid-column: 1fr 1fr 1fr;*/
-/*grid-area: foot;*/
-border: 2px groove blueviolet;
-}
 
 /* #footerNav nav ul, nav li, a{    /* el # pone el id*/
 
@@ -476,12 +468,3 @@ border: 2px groove blueviolet;
 ul > li {
   color: white;
 }
-
-
-
-/*
-footer video{
-  display: block;
-}
-*/
-
