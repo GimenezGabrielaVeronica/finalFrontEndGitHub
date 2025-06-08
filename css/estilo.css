@@ -73,20 +73,15 @@ iframe{
   top: -6rem;
 }
 
-header{   /*ej 21/5*/
-  display: flex; /*va en horizontal*/
-  background: #9400D3;
-  justify-content: space-around;
-  align-items: center;
-  
+header{   
+ 
 }
 
 .navbar-fija {
     position: fixed;
-    display: flex;
+    display: flex;/*va en horizontal*/
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: left;
     top: 0;
     left: 0;
     width: 100%;
@@ -106,9 +101,10 @@ header{   /*ej 21/5*/
 
 .navbar-fija ul {
     list-style: none;
-    margin: 0;
+    margin: 0;  
     padding: 0;
     display: flex;
+    justify-content: space-around;
     margin-right: 20px;
     gap: 1rem;
 }
@@ -130,7 +126,7 @@ header{   /*ej 21/5*/
 
 main{
     width: 100%;
-    border: 2px solid blue;
+    border: 2px solid blueviolet;
     padding: 3rem;
     /*margin: 0 20%;  1º valor arriba y abajo , el 2º es izq der*/
     background-color: rgb(229, 158, 243);
@@ -165,7 +161,7 @@ iframe{
 
 video{
   display: block;
-  border: 2px solid red;
+  border: 2px solid blueviolet;
   padding: 20px;
 }
 
@@ -309,12 +305,8 @@ h5{
     text-align: left;    
     font: bold; 
     gap: 1rem;
-      box-shadow: 10px 10px 10px blueviolet;
-  transition: transform 0.3s ease-out;
-  }
-
-.productos img {
-    width: 100%;
+    box-shadow: 10px 10px 10px blueviolet;
+    transition: transform 0.3s ease-out;
   }
 
             /*
@@ -343,6 +335,9 @@ li{
   align-content:center;
 }*/
 
+.productos img {
+    width: 100%;
+  }
 
 .fondo-transparente{
   background-color: rgba(175, 12, 175, 0.5);
