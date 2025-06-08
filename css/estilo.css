@@ -419,9 +419,8 @@ li{
 }
 
 .fondo{
-  /*no me lo toma, queda en chiquito*/
   background-image: url('imagenes/cabecera.jpg');
-  background-size:cover; /*la imagen cubre todo el contenedor*/
+ /* background-size:cover; la imagen cubre todo el contenedor*/
   background-position: center;
   padding: 10;
   width: 40rem;
