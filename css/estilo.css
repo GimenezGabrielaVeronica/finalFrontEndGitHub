@@ -13,6 +13,8 @@ body{
   padding-top: 90px;
   position: relative;
   box-sizing: border-box;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 /*   BREAKPOINTS    */
@@ -126,8 +128,8 @@ main{
     padding: 3rem;
     /*margin: 0 20%;  1º valor arriba y abajo , el 2º es izq der*/
     background-color: rgb(229, 158, 243);
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     margin: auto;
 }
 
@@ -142,8 +144,9 @@ img{
 
 iframe{
   border: 1px dotted blueviolet;
-  width: 70% ;
-  margin-bottom: 2rem;
+  width: 50% ;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 
@@ -232,6 +235,7 @@ h2{
   margin-bottom: 10px;
   justify-content: center;
   margin-bottom: 1rem;
+  margin-top: 1rem;
   }
 
 h3{
@@ -438,21 +442,26 @@ li{
   color: blueviolet; /*color del texto*/
   border: 3px solid ;
   border-radius: 8px;
+  margin-top: 1rem;
   margin-bottom: 1rem;
+  padding: 10;
 }
 
 
 /* #footerNav nav ul, nav li, a{    /* el # pone el id*/
 
 #footerNav ul{
-    list-style: none;      /*saca la viñeta de enlace*/
-    margin-bottom: 1rem;
+  list-style: none;      /*saca la viñeta de enlace*/
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
   }
 
 #footerNav a{             /* el # pone el id*/
   text-decoration: none; /*saca apariencia de enlace*/
   color: blueviolet;
-  /*display: block;*/
+
+
 }
 
 
