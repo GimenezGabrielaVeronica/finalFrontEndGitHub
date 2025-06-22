@@ -127,7 +127,7 @@ main{
     border: 2px solid blueviolet;
     padding: 3rem;
     /*margin: 0 20%;  1º valor arriba y abajo , el 2º es izq der*/
-    background-color: rgb(229, 158, 243);
+    background-color: rgb(255, 255, 255);
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin: auto;
@@ -282,7 +282,7 @@ h5{
     flex-wrap: wrap;
     gap: 2rem;
     justify-content:space-between;
-    background-color:white;
+    background-color:rgb(238, 169, 247);
     padding: 20px;
     border: 10px inset ;
     border-radius: 10px;
