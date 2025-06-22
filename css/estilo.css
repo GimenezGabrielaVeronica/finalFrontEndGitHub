@@ -73,10 +73,6 @@ iframe{
   top: -6rem;
 }
 
-header{   
- 
-}
-
 .navbar-fija {
     position: fixed;
     display: flex;/*va en horizontal*/
