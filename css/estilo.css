@@ -135,7 +135,6 @@ main{
 
 .iconos {
   width: 90px;   /*no hace falta tocar la medida del alto*/
-
 }
 
 img{
@@ -148,8 +147,6 @@ iframe{
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
-
-
 
 .imgReferencias {
   border: 1px solid;
@@ -278,7 +275,8 @@ h5{
 
 
 #contenedorProductos { 
-    display: flex;  /* de la seccion productos*/
+  /* de la seccion productos del index.html*/
+    display: flex;  
     flex-wrap: wrap;
     gap: 2rem;
     justify-content:space-between;
@@ -289,7 +287,7 @@ h5{
     margin-bottom: 5rem;
   }
 
-.productosDetallados{    /*clase productos*/
+.productosDetallados{    /*clase productos del index.html */
     display: flex;
     width: 40rem;
     flex-direction: row;
@@ -337,15 +335,16 @@ li{
 }*/
 
 .productos img {
-    width: 100%;
-  }
+  width: 150px;
+  height: 150px;
+}
+
+
 
 .fondo-transparente{
   background-color: rgba(175, 12, 175, 0.5);
   margin: 2rem 0;
 }
-
-
 
 
 /*  resenias  */
@@ -420,13 +419,94 @@ li{
 }
 
 .fondo{
-  background-image: url('imagenes/cabecera.jpg');
- /* background-size:cover; la imagen cubre todo el contenedor*/
-  background-position: center;
-  padding: 10;
-  width: 40rem;
-  height: 5rem;
+    background-image: url('imagenes/cabecera.jpg');
+  /* background-size:cover; la imagen cubre todo el contenedor*/
+    background-position: center;
+    padding: 10;
+    width: 40rem;
+    height: 5rem;
 }
+
+
+/* estilos carrito separado en carritoCompras.html    */
+
+.carritoCompras {
+    margin: 2rem auto 0;
+    border: 1px solid #dc14ee;
+    padding: 2rem;
+    max-width: 800px;
+    min-width: auto;
+    background-color: rgb(41, 2, 44);
+    color: rgb(25, 219, 122);
+    border: 10px groove ;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px blueviolet;
+}
+
+.carritoCompras h2 {
+    color:#33082D;
+    background-image: 100px;
+    margin-top: 0;
+}
+
+/* estilos carrito separado en carritoCompras.html    */
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 2 rem;
+    padding-right: 20px;
+    justify-content:space-between;
+    border: 10px groove ;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 2 rem;
+    text-align: left;    
+    font: bold; 
+    gap: 1rem;
+    box-shadow: 10px 10px 10px blueviolet;
+
+}
+
+.lista-carrito li {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 3px 8px;    
+
+
+ 
+}
+
+.lista-carrito button {
+    margin-left: 5px;
+    padding: 3px 8px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #f0f0f0;
+}
+
+.lista-carrito button {
+    background-color: blueviolet;    
+    color: rgb(255, 255, 255);
+    border-color: rgb(238, 88, 188);
+    padding: 4px 4px;  
+}
+
+/* estilos carrito separado en carritoCompras.html    */
+.total-carrito,
+.cantidad-carrito {
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #eeeeee;
+}
+
+
 
 
 /*  --------estilos del footer-----------------*/

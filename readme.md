@@ -1,3 +1,5 @@
-GyP es la Sigla que mejor define la labor conjunta de la Gestión y los procesos para obtener resultados que Maximicen la Calidad. 
-Esta Web acerca la información vigente del para delinear un buen cause de los esfuerzos del dia a dia con el fin de colaborar en obtener resultados de Excelencia con la Mayor Eficiencia y Eficacia.
-El proyecto fue realizado en HTML, los estilos CSS y Java Script con la finalidad de darle estetica y funcionalidad al carrito de compras de los Servicios de la Empesa.
+GyP es la Sigla que mejor define la labor conjunta de la Gestión y los Procesos para obtener resultados que Maximicen la Calidad. 
+Esta Web acerca la información vigente del cambiante mercado actual, para delinear un buen cause de los esfuerzos del dia a dia. Con el fin de colaborar en la obtención de resultados de Excelencia y con la Mayor Eficiencia y Eficacia.
+El proyecto fue realizado en HTML (con las etiquetas semánticas que permitieron organizar la página), los estilos CSS (implementaron un diseño responsive , tanto para celulares como para computadoras en sus diferentes tamaños y amigable para el usuario, usando grillas y Flexbox) . 
+Finalmente con Java Script (mediante el uso de funciones y eventos) se le da la integracion funcional y estetica al carrito de compras de los Servicios de la Empresa. 
+Tambien se dispuso un Formulario para que los potenciales clientes puedan contactarnos y asi iniciar una fluída comunicación, para contener su demanda.
