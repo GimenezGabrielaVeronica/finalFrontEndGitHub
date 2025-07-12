@@ -289,7 +289,7 @@ h5{
 
 .productosDetallados{    /*clase productos del index.html */
     display: flex;
-    width: 40rem;
+    width: 90%;
     flex-direction: row;
     flex-wrap: wrap;
     width: 12rem ;
@@ -337,6 +337,8 @@ li{
 .productos img {
   width: 150px;
   height: 150px;
+  margin-top: 1 rem;
+  margin-bottom: 1rem;
 }
 
 
@@ -372,7 +374,7 @@ li{
   width: 15rem ;
   padding: 2rem 1 rem 0;
   justify-content: center;
-  box-shadow: 10px 10px 10px blueviolet;
+  box-shadow: 10px 10px 10px rgb(35, 10, 177);
   transition: transform 0.3s ease-out;
 }
 
@@ -386,7 +388,7 @@ li{
     top: -2rem;
     height: 4rem;
     width: 4rem;
-    border-radius: 20px;
+    border-radius: 20px;    
 }
 
 .card-content {
@@ -437,7 +439,7 @@ li{
     max-width: 800px;
     min-width: auto;
     background-color: rgb(41, 2, 44);
-    color: rgb(25, 219, 122);
+    color: rgb(21, 187, 179);
     border: 10px groove ;
     border-radius: 10px;
     box-shadow: 10px 10px 10px blueviolet;
@@ -455,55 +457,75 @@ li{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin-bottom: 20px;
+    width: 90%;
+    margin-bottom: 2 rem;
     margin-top: 2 rem;
-    padding-right: 20px;
+    margin-left: 1rem;
+    margin-right:1rem;
+    padding: 2rem 2rem 2rem 2rem;
+    font: bold; 
+    color: rgb(10, 138, 131);
+    text-align: left;    
     justify-content:space-between;
     border: 10px groove ;
     border-radius: 10px;
     background-color: white;
-    margin-top: 2 rem;
+    gap: 2 rem;
+    box-shadow: 10px 10px 10px blueviolet;
+}
+
+.producto-contenido{    /*clase productos del carrito separado de pagina */
+    display: flex;
+    width: 40rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 12rem ;
+    justify-content:center;
+    padding: 10px 10px 10px 10px;
+
+    align-items: left;
+    border: 10px groove ;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 1 rem;
+    margin-bottom: 1 rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     text-align: left;    
     font: bold; 
     gap: 1rem;
-    box-shadow: 10px 10px 10px blueviolet;
-
-}
+    transition: transform 0.3s ease-out;
+  }
 
 .lista-carrito li {
     display: flex;
-    gap: 5px;
+    gap: 50px;
     align-items: center;
-    margin-bottom: 5px;
-    padding: 3px 8px;    
+    margin-top: 2 rem;
+    margin-bottom: 2 rem;
+    padding: 3px 8px;     
+    box-shadow: 10px 10px 10px rgb(57, 4, 73);
 
-
- 
 }
 
-.lista-carrito button {
-    margin-left: 5px;
-    padding: 3px 8px;
-    cursor: pointer;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    background-color: #f0f0f0;
-}
 
 .lista-carrito button {
     background-color: blueviolet;    
     color: rgb(255, 255, 255);
     border-color: rgb(238, 88, 188);
-    padding: 4px 4px;  
+    border-radius: 3px;
+    border: 1px solid #f02ff0;
+    padding: 3px 8px;
+    cursor: pointer;
 }
 
 /* estilos carrito separado en carritoCompras.html    */
 .total-carrito,
 .cantidad-carrito {
     font-weight: bold;
-    margin-top: 10px;
-    padding-top: 10px;
-    border-top: 1px solid #eeeeee;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 5px solid #eeeeee;
 }
 
 
