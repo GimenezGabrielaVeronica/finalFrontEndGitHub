@@ -308,32 +308,6 @@ h5{
     transition: transform 0.3s ease-out;
   }
 
-            /*
-            .item-1{
-              flex: 1 1 200px;
-              margin: 10px;
-              background-color: white;
-              border: 10px ridge;
-              color:blueviolet;
-              font:bold;
-              padding: 20px;
-            }
-
-            .item-2{
-              flex: 1 1 200px;
-              margin: 10px;
-              background-color: pink;
-              color: beige;
-              padding: 20px;
-
-            }*/
-
-/*
-li{
-  background-color: yellow;
-  align-content:center;
-}*/
-
 .productos img {
   width: 150px;
   height: 150px;
@@ -352,13 +326,8 @@ li{
 /*  resenias  */
 
 .resenias{
-  display: grid;         /*arma grilla*/
-  /*grid-template-columns: 20rem 20rem 20rem; 3 col de 20 de ancho*/
-  /*grid-template-columns: 1fr 1fr 1fr; separa en 3 fracciones cada col*/
-  /*grid-template-columns: repeat(3, 1fr);*/
+  display: grid;         /*arma grilla*/ 
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  /*grid-template-rows: 20rem auto;  auto auto es por defecto*/
-  /*grid-template-rows: 1fr 1fr 1fr;*/
   gap: 2rem;
   place-items:center;
   padding: 1rem;
@@ -482,7 +451,6 @@ li{
     width: 12rem ;
     justify-content:center;
     padding: 10px 10px 10px 10px;
-
     align-items: left;
     border: 10px groove ;
     border-radius: 10px;
@@ -505,7 +473,6 @@ li{
     margin-bottom: 2 rem;
     padding: 3px 8px;     
     box-shadow: 10px 10px 10px rgb(57, 4, 73);
-
 }
 
 
@@ -562,8 +529,6 @@ li{
 #footerNav a{             /* el # pone el id*/
   text-decoration: none; /*saca apariencia de enlace*/
   color: blueviolet;
-
-
 }
 
 
